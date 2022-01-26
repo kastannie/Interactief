@@ -9,7 +9,7 @@ body {
 }
 
 :root {
-    --clr-neon: hsl(317 100% 54%);
+    --clr-neon: rgba(248, 81, 81, 0.644);
     --clr-bg: rgb(255, 255, 255);
   }
 
@@ -141,6 +141,11 @@ nav {
   .neon-button:hover::after,
   .neon-button:focus::after {
     opacity: 1;
+  }
+
+  .neon-button-thing {
+      text-align: center;
+      margin-top: 10%;
   }
   
 
